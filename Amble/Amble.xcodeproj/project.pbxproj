@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015D13A0396D0AE94D37D96B /* Pods_AmbleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D32350B49F43F30F81BD85 /* Pods_AmbleUITests.framework */; };
+		0E698E65E8194C5F85262215 /* Pods_AmbleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12444D0A6B37395BA93E77EB /* Pods_AmbleTests.framework */; };
+		2E86D80E7F3628A00C548715 /* Pods_Amble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEE793663FA779B18DC0F16 /* Pods_Amble.framework */; };
 		CB622D671F05CD06006993AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB622D661F05CD06006993AA /* AppDelegate.swift */; };
 		CB622D691F05CD06006993AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB622D681F05CD06006993AA /* ViewController.swift */; };
 		CB622D6C1F05CD06006993AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB622D6A1F05CD06006993AA /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		CB622D741F05CD06006993AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB622D721F05CD06006993AA /* LaunchScreen.storyboard */; };
 		CB622D7F1F05CD06006993AA /* AmbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB622D7E1F05CD06006993AA /* AmbleTests.swift */; };
 		CB622D8A1F05CD06006993AA /* AmbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB622D891F05CD06006993AA /* AmbleUITests.swift */; };
+		CBEEFA501F130E3D00CADEAE /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEFA4F1F130E3C00CADEAE /* Directions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027AE4DC814CCE0FAB6E3E8D /* Pods-AmbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmbleTests/Pods-AmbleTests.release.xcconfig"; sourceTree = "<group>"; };
+		12444D0A6B37395BA93E77EB /* Pods_AmbleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmbleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F296CFABD17B4A65961DFD /* Pods-AmbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmbleTests/Pods-AmbleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		208F37C5A75A0FAE9414EB8D /* Pods-AmbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmbleUITests/Pods-AmbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		366803BCCFF169D93A0433F4 /* Pods-Amble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amble/Pods-Amble.release.xcconfig"; sourceTree = "<group>"; };
+		50D32350B49F43F30F81BD85 /* Pods_AmbleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmbleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEE793663FA779B18DC0F16 /* Pods_Amble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB622D631F05CD06006993AA /* Amble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB622D661F05CD06006993AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB622D681F05CD06006993AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		CB622D851F05CD06006993AA /* AmbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB622D891F05CD06006993AA /* AmbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbleUITests.swift; sourceTree = "<group>"; };
 		CB622D8B1F05CD06006993AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEEFA4F1F130E3C00CADEAE /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		D0FB1A92504980517685C9D9 /* Pods-Amble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amble/Pods-Amble.debug.xcconfig"; sourceTree = "<group>"; };
+		EF90E5EF7CB3DB4ACCA7C06A /* Pods-AmbleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmbleUITests/Pods-AmbleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E86D80E7F3628A00C548715 /* Pods_Amble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E698E65E8194C5F85262215 /* Pods_AmbleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015D13A0396D0AE94D37D96B /* Pods_AmbleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032B98A26112017D0D7ED39B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB1A92504980517685C9D9 /* Pods-Amble.debug.xcconfig */,
+				366803BCCFF169D93A0433F4 /* Pods-Amble.release.xcconfig */,
+				12F296CFABD17B4A65961DFD /* Pods-AmbleTests.debug.xcconfig */,
+				027AE4DC814CCE0FAB6E3E8D /* Pods-AmbleTests.release.xcconfig */,
+				208F37C5A75A0FAE9414EB8D /* Pods-AmbleUITests.debug.xcconfig */,
+				EF90E5EF7CB3DB4ACCA7C06A /* Pods-AmbleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71706648C0AA1DC9D5E7EA0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE793663FA779B18DC0F16 /* Pods_Amble.framework */,
+				12444D0A6B37395BA93E77EB /* Pods_AmbleTests.framework */,
+				50D32350B49F43F30F81BD85 /* Pods_AmbleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB622D5A1F05CD06006993AA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				CB622D7D1F05CD06006993AA /* AmbleTests */,
 				CB622D881F05CD06006993AA /* AmbleUITests */,
 				CB622D641F05CD06006993AA /* Products */,
+				032B98A26112017D0D7ED39B /* Pods */,
+				71706648C0AA1DC9D5E7EA0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +148,7 @@
 				CB622D721F05CD06006993AA /* LaunchScreen.storyboard */,
 				CB622D751F05CD06006993AA /* Info.plist */,
 				CB622D6D1F05CD06006993AA /* Amble.xcdatamodeld */,
+				CBEEFA4F1F130E3C00CADEAE /* Directions.swift */,
 			);
 			path = Amble;
 			sourceTree = "<group>";
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB622D8E1F05CD06006993AA /* Build configuration list for PBXNativeTarget "Amble" */;
 			buildPhases = (
+				96B2F907AA68C811CD819346 /* [CP] Check Pods Manifest.lock */,
 				CB622D5F1F05CD06006993AA /* Sources */,
 				CB622D601F05CD06006993AA /* Frameworks */,
 				CB622D611F05CD06006993AA /* Resources */,
+				F0322E0303A7214C375F7160 /* [CP] Embed Pods Frameworks */,
+				29B53617766B63DA142A2557 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB622D911F05CD06006993AA /* Build configuration list for PBXNativeTarget "AmbleTests" */;
 			buildPhases = (
+				50FB4F3516F352A346C89155 /* [CP] Check Pods Manifest.lock */,
 				CB622D761F05CD06006993AA /* Sources */,
 				CB622D771F05CD06006993AA /* Frameworks */,
 				CB622D781F05CD06006993AA /* Resources */,
+				B6498BEA5F47EA7213ED29E2 /* [CP] Embed Pods Frameworks */,
+				D31E8A44E0EC0C27D1AE9C4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB622D941F05CD06006993AA /* Build configuration list for PBXNativeTarget "AmbleUITests" */;
 			buildPhases = (
+				4DA11B15416CA4166FAB14A0 /* [CP] Check Pods Manifest.lock */,
 				CB622D811F05CD06006993AA /* Sources */,
 				CB622D821F05CD06006993AA /* Frameworks */,
 				CB622D831F05CD06006993AA /* Resources */,
+				F8B393A6C18988FEF74C87DE /* [CP] Embed Pods Frameworks */,
+				11A9375B444D58F7D8FBE96F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +309,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11A9375B444D58F7D8FBE96F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmbleUITests/Pods-AmbleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29B53617766B63DA142A2557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amble/Pods-Amble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA11B15416CA4166FAB14A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50FB4F3516F352A346C89155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96B2F907AA68C811CD819346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6498BEA5F47EA7213ED29E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmbleTests/Pods-AmbleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31E8A44E0EC0C27D1AE9C4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmbleTests/Pods-AmbleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0322E0303A7214C375F7160 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amble/Pods-Amble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B393A6C18988FEF74C87DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmbleUITests/Pods-AmbleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB622D5F1F05CD06006993AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +455,7 @@
 				CB622D6F1F05CD06006993AA /* Amble.xcdatamodeld in Sources */,
 				CB622D691F05CD06006993AA /* ViewController.swift in Sources */,
 				CB622D671F05CD06006993AA /* AppDelegate.swift in Sources */,
+				CBEEFA501F130E3D00CADEAE /* Directions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +605,7 @@
 		};
 		CB622D8F1F05CD06006993AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FB1A92504980517685C9D9 /* Pods-Amble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Amble/Info.plist;
@@ -426,6 +618,7 @@
 		};
 		CB622D901F05CD06006993AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366803BCCFF169D93A0433F4 /* Pods-Amble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Amble/Info.plist;
@@ -438,6 +631,7 @@
 		};
 		CB622D921F05CD06006993AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F296CFABD17B4A65961DFD /* Pods-AmbleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +646,7 @@
 		};
 		CB622D931F05CD06006993AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027AE4DC814CCE0FAB6E3E8D /* Pods-AmbleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +661,7 @@
 		};
 		CB622D951F05CD06006993AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208F37C5A75A0FAE9414EB8D /* Pods-AmbleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AmbleUITests/Info.plist;
@@ -479,6 +675,7 @@
 		};
 		CB622D961F05CD06006993AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF90E5EF7CB3DB4ACCA7C06A /* Pods-AmbleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AmbleUITests/Info.plist;
@@ -509,6 +706,7 @@
 				CB622D901F05CD06006993AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB622D911F05CD06006993AA /* Build configuration list for PBXNativeTarget "AmbleTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +715,7 @@
 				CB622D931F05CD06006993AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB622D941F05CD06006993AA /* Build configuration list for PBXNativeTarget "AmbleUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +724,7 @@
 				CB622D961F05CD06006993AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
